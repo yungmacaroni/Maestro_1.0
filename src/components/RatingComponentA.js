@@ -3,9 +3,13 @@ import { View, TextInput, StyleSheet } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import { Player } from "./Player";
 
+// Component represents player info user input for advanced generator.
+
 var players = {};
 
 export default function RatingComponentA(props) {
+
+  //setting values for text input/ pickers.
   const [playerName, setPlayerName] = useState("");
   const [dictKey, setDictKey] = useState("");
   const [fitnessValue, setSelectedValueF] = useState(null);

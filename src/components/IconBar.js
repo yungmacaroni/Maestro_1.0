@@ -7,6 +7,9 @@ import {
 } from "@expo/vector-icons";
 import { styles } from "./Styles";
 
+// Component represents icon bar that is visible
+// at the bottom of each screen
+
 export default function IconBar() {
   function onPress() {
     Alert.alert("This feature is not available yet");
