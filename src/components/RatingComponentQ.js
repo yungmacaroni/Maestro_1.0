@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, TextInput, StyleSheet } from "react-native";
 import { Picker } from "@react-native-picker/picker";
-import { Player } from "./Player";
+import { Player } from "../classes/Player";
 
 // Component represents player info user input for quick generator.
 

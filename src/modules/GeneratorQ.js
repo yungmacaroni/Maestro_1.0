@@ -1,7 +1,9 @@
 import * as React from "react";
 import { View, Text } from "react-native";
-import { Team } from "../components/Team";
+import { Team } from "../classes/Team";
 import { styles } from "../components/Styles";
+
+//Quick generator
 
 export const GeneratorQ = ({ route, navigation }) => {
   const { playerData } = route.params;
