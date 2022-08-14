@@ -8,7 +8,6 @@ import { Player } from "./Player";
 var players = {};
 
 export default function RatingComponentQ(props) {
-
   //setting values for text input/ picker.
   const [playerName, setPlayerName] = useState("");
   const [dictKey, setDictKey] = useState("");
@@ -30,7 +29,7 @@ export default function RatingComponentQ(props) {
   }
 
   function dataCleaner(value) {
-    props.setRefreshed(value)
+    props.setRefreshed(value);
   }
 
   if (dictKey != "" && abilityValue != null) {
@@ -47,7 +46,7 @@ export default function RatingComponentQ(props) {
 
   if (props.refreshed) {
     players = {};
-    dataCleaner(false)
+    dataCleaner(false);
   }
 
   return (

@@ -8,7 +8,6 @@ import { Player } from "./Player";
 var players = {};
 
 export default function RatingComponentA(props) {
-
   //setting values for text input/ pickers.
   const [playerName, setPlayerName] = useState("");
   const [dictKey, setDictKey] = useState("");

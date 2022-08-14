@@ -1,8 +1,8 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import LogoTitle from '../components/LogoTitle'
+import React from "react";
+import renderer from "react-test-renderer";
+import LogoTitle from "../components/LogoTitle";
 
-test('renders correctly', () => {
+test("renders correctly", () => {
   const tree = renderer.create(<LogoTitle />).toJSON();
   expect(tree).toMatchSnapshot();
 });
