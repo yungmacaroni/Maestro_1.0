@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 40,
+      "justifyContent": "space-between",
+      "padding": 0,
+      "paddingTop": 8,
+      "width": "80%",
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Player Name"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "#1b411f",
+        "borderRadius": 8,
+        "borderWidth": 2,
+        "flex": 3,
+        "fontSize": 16,
+        "paddingLeft": 4,
+      }
+    }
+    value=""
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderColor": "#1b411f",
+        "borderRadius": 8,
+        "borderWidth": 2,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": 110,
+        }
+      }
+    >
+      <RNCPicker
+        items={
+          Array [
+            Object {
+              "label": "Ability",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": null,
+            },
+            Object {
+              "label": "1",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 1,
+            },
+            Object {
+              "label": "2",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 2,
+            },
+            Object {
+              "label": "3",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 3,
+            },
+            Object {
+              "label": "4",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 4,
+            },
+            Object {
+              "label": "5",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 5,
+            },
+            Object {
+              "label": "6",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 6,
+            },
+            Object {
+              "label": "7",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 7,
+            },
+            Object {
+              "label": "8",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 8,
+            },
+            Object {
+              "label": "9",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 9,
+            },
+            Object {
+              "label": "10",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": 10,
+            },
+          ]
+        }
+        numberOfLines={1}
+        onChange={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

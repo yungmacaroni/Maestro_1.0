@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1b411f",
+      "justifyContent": "center",
+      "margin": 0,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontFamily": "Lemonada_400Regular",
+        "fontSize": 30,
+        "textAlign": "center",
+      }
+    }
+  >
+    Maestro
+  </Text>
+</View>
+`;

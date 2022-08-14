@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "space-between",
+      "padding": 2,
+      "paddingTop": 8,
+      "width": "100%",
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Player Name"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "#1b411f",
+        "borderRadius": 8,
+        "borderWidth": 2,
+        "fontSize": 16,
+        "paddingLeft": 4,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+    value=""
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#1b411f",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flex": 1,
+          "height": "70%",
+          "justifyContent": "space-evenly",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 40,
+            "transform": Array [
+              Object {
+                "scaleX": 1,
+              },
+              Object {
+                "scaleY": 1,
+              },
+            ],
+            "width": "100%",
+          }
+        }
+      >
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Fitness",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "1",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 1,
+              },
+              Object {
+                "label": "2",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 2,
+              },
+              Object {
+                "label": "3",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 3,
+              },
+              Object {
+                "label": "4",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 4,
+              },
+              Object {
+                "label": "5",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 5,
+              },
+              Object {
+                "label": "6",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 6,
+              },
+              Object {
+                "label": "7",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 7,
+              },
+              Object {
+                "label": "8",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 8,
+              },
+              Object {
+                "label": "9",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 9,
+              },
+              Object {
+                "label": "10",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 10,
+              },
+            ]
+          }
+          numberOfLines={1}
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#1b411f",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flex": 1,
+          "height": "70%",
+          "justifyContent": "space-evenly",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 40,
+            "transform": Array [
+              Object {
+                "scaleX": 1,
+              },
+              Object {
+                "scaleY": 1,
+              },
+            ],
+            "width": "100%",
+          }
+        }
+      >
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Attack",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "1",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 1,
+              },
+              Object {
+                "label": "2",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 2,
+              },
+              Object {
+                "label": "3",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 3,
+              },
+              Object {
+                "label": "4",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 4,
+              },
+              Object {
+                "label": "5",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 5,
+              },
+              Object {
+                "label": "6",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 6,
+              },
+              Object {
+                "label": "7",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 7,
+              },
+              Object {
+                "label": "8",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 8,
+              },
+              Object {
+                "label": "9",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 9,
+              },
+              Object {
+                "label": "10",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 10,
+              },
+            ]
+          }
+          numberOfLines={1}
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "#1b411f",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flex": 1,
+          "height": "70%",
+          "justifyContent": "space-evenly",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 40,
+            "transform": Array [
+              Object {
+                "scaleX": 1,
+              },
+              Object {
+                "scaleY": 1,
+              },
+            ],
+            "width": "100%",
+          }
+        }
+      >
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Defense",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "1",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 1,
+              },
+              Object {
+                "label": "2",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 2,
+              },
+              Object {
+                "label": "3",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 3,
+              },
+              Object {
+                "label": "4",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 4,
+              },
+              Object {
+                "label": "5",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 5,
+              },
+              Object {
+                "label": "6",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 6,
+              },
+              Object {
+                "label": "7",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 7,
+              },
+              Object {
+                "label": "8",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 8,
+              },
+              Object {
+                "label": "9",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 9,
+              },
+              Object {
+                "label": "10",
+                "testID": undefined,
+                "textColor": undefined,
+                "value": 10,
+              },
+            ]
+          }
+          numberOfLines={1}
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
